@@ -7,8 +7,9 @@ group :production do
 	gem "pg"
 end	
 
-group :devleopment, :test do
-	gem 'sqlite3'
+group :development do
+  gem 'taps'
+  gem 'rvm'
 end
 
 group :assets do
