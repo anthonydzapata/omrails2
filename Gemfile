@@ -10,9 +10,8 @@ end
 group :development do
   gem 'taps'
   gem 'rvm'
+  gem "sqlite3", "~> 1.3.7"
 end
-
-gem "sqlite3", "~> 1.3.7"
 
 group :assets do
 	gem 'sass-rails',   '~> 3.2.3'
