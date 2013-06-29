@@ -12,6 +12,8 @@ group :development do
   gem 'rvm'
 end
 
+gem "sqlite3", "~> 1.3.7"
+
 group :assets do
 	gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
